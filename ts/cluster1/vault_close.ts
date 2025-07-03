@@ -11,9 +11,9 @@ import {
   AnchorProvider,
   Address,
   BN,
-} from "@coral-xyz/anchor";
+} from "@coral-xyz/anchor";  
 import { WbaVault, IDL } from "./programs/wba_vault";
-import wallet from "./wallet/turbin3-wallet.json";
+import wallet from "./wallet/turbin3_wallet.json";
 
 // Import our keypair from the wallet file
 const keypair = Keypair.fromSecretKey(new Uint8Array(wallet));
